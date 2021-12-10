@@ -34,6 +34,7 @@ export default defineComponent({
                                             <QInput rules={[(val: string) => !!val || 'Please type something']}
                                                     autofocus
                                                     dense
+                                                    placeholder="test"
                                                     modelValue="login"/>
                                             <QInput rules={[(val: string) => !!val || 'Please type something']}
                                                     dense
